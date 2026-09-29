@@ -7,7 +7,7 @@ export class AppController {
 
   @Get()
   getHello(): string {
-    const myA = "I am a bug?";
+
     return this.appService.getHello();
   }
 }
